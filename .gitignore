@@ -1,0 +1,8 @@
+node_modules/
+frontend/dist/
+backend/.env
+backend/uploads/*
+backend/converted/*
+__pycache__/
+*.py[cod]
+.DS_Store

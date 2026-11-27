@@ -1,0 +1,1 @@
+import{postFiles}from'./api.js';import{createUpload}from'./uploadService.js';export async function convertFiles(files,tool){const response=await postFiles('/api/convert',createUpload(files,tool));return{blob:await response.blob(),filename:response.headers.get('content-disposition')?.match(/filename="?([^";]+)"?/)?.[1]||'convertpro-output'};}

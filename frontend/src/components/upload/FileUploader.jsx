@@ -1,0 +1,1 @@
+import DragDropZone from'./DragDropZone.jsx';export default function FileUploader({onFiles}){return <DragDropZone onFiles={onFiles}>Choose files to convert</DragDropZone>}

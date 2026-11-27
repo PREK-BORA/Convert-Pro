@@ -1,0 +1,1 @@
+import ToolCard from'./ToolCard.jsx';export default function ToolGrid({tools,onSelect}){return <div className="toolgrid">{tools.map(tool=><ToolCard key={tool.name} tool={tool} onSelect={onSelect}/>)}</div>}

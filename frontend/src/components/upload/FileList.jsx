@@ -1,0 +1,1 @@
+import FilePreview from'./FilePreview.jsx';export default function FileList({files,onRemove}){return <div>{files.map((file,i)=><div key={file.name+i}><FilePreview file={file}/><button onClick={()=>onRemove(i)} aria-label={'Remove '+file.name}>Remove</button></div>)}</div>}

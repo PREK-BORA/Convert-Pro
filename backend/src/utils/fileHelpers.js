@@ -1,0 +1,1 @@
+import path from 'node:path';export const getExtension=name=>path.extname(name).toLowerCase().slice(1);export const isSafeArchivePath=name=>{const normalized=path.posix.normalize(name);return !normalized.startsWith('../')&&!path.posix.isAbsolute(normalized)};

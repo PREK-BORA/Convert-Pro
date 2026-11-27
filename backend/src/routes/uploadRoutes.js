@@ -1,0 +1,1 @@
+import{Router}from'express';import{uploadInfo}from'../controllers/uploadController.js';import{upload}from'../middleware/uploadMiddleware.js';const router=Router();router.post('/',upload.array('files',20),uploadInfo);export default router;

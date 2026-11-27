@@ -1,0 +1,1 @@
+export const categories=[{name:'PDF',description:'Documents made simple'},{name:'Image',description:'JPG, PNG, WebP & more'},{name:'Spreadsheet',description:'Sheets, CSV & tables'},{name:'Archive',description:'ZIP & compressed files'},{name:'Video',description:'Video and audio formats'},{name:'Audio',description:'Sound in every format'}];

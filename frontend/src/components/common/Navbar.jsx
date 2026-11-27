@@ -1,0 +1,1 @@
+import{RefreshCw}from'lucide-react';export default function Navbar(){return <header><div className="nav wrap"><a className="logo" href="/"><i><RefreshCw/> </i>Convert<span>Pro</span></a><nav className="links"><a href="/">Home</a><a href="/tools">All tools</a><a href="/tools/image">Image</a><a href="/tools/pdf">PDF</a></nav></div></header>}

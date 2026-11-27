@@ -1,0 +1,1 @@
+export default function Footer(){return <footer><div className="footer wrap"><a href="/">ConvertPro</a><span>File conversion, without the fuss.</span><a href="mailto:hello@convertpro.app">Contact</a></div></footer>}

@@ -1,0 +1,1 @@
+import{downloadBlob}from'../../services/downloadService.js';export default function DownloadButton({blob,name}){return <button onClick={()=>downloadBlob(blob,name)}>Download file</button>}

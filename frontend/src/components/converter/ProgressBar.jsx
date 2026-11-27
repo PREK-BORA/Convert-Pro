@@ -1,0 +1,1 @@
+export default function ProgressBar({value=0,label='Converting'}){return <div className="progress" role="progressbar" aria-valuenow={value} aria-valuemin="0" aria-valuemax="100"><span>{label}</span><b>{Math.round(value)}%</b><i><u style={{width:value+'%'}}/></i></div>}

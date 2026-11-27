@@ -1,0 +1,1 @@
+import Button from'../common/Button.jsx';export default function ConvertButton({busy,disabled,onClick}){return <Button className="primary" disabled={busy||disabled} onClick={onClick}>{busy?'Converting...':'Convert file'}</Button>}

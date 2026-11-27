@@ -1,0 +1,1 @@
+export async function postFiles(url,formData){const response=await fetch(url,{method:'POST',body:formData});if(!response.ok){let message='Request failed';try{message=(await response.json()).error||message}catch{}throw new Error(message)}return response;}

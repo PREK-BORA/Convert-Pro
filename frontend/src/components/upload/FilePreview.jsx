@@ -1,0 +1,1 @@
+import{FileText}from'lucide-react';import formatFileSize from'../../utils/formatFileSize.js';export default function FilePreview({file}){return <div className="fileline"><FileText/><span><b>{file.name}</b><small>{formatFileSize(file.size)}</small></span></div>}

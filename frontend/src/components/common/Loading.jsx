@@ -1,0 +1,1 @@
+export default function Loading({label='Working...'}){return <div role="status" aria-live="polite" className="loading"><span className="spinner"/>{label}</div>}

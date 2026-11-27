@@ -1,0 +1,1 @@
+import{maxUploadBytes,supportedFormats}from'../../../shared/supportedFormats.js';export function validateFile(file,formats){if(file.size>maxUploadBytes)return'File must be 100 MB or smaller.';const ext=file.name.split('.').pop().toLowerCase();if(formats&&!formats.includes(ext))return'Choose a supported file format.';return''}

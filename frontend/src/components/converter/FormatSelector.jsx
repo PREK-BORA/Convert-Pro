@@ -1,0 +1,1 @@
+export default function FormatSelector({formats,value,onChange}){return <label>Output format <select value={value} onChange={e=>onChange(e.target.value)}>{formats.map(f=><option key={f} value={f}>{f.toUpperCase()}</option>)}</select></label>}

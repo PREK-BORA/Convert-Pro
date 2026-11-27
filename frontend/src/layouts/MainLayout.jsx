@@ -1,0 +1,1 @@
+import Navbar from'../components/common/Navbar.jsx';import Footer from'../components/common/Footer.jsx';export default function MainLayout({children}){return <><Navbar/><main>{children}</main><Footer/></>}
